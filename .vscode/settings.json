@@ -12,5 +12,6 @@
 	"prettier.singleQuote": false,
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact"
-	}
+	},
+	"prettier.printWidth": 120
 }
