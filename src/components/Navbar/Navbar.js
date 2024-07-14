@@ -5,26 +5,26 @@ function Navbar() {
 	return (
 		<nav className="container">
 			<div className="logo">
-				<h1>Morden Interia</h1>
+				<h1>Modern</h1>
 			</div>
 			<div className="nav-links">
-				<ul>
-					<li>
-						<a href="#home">Home</a>
-					</li>
-					<li>
-						<a href="#Purpose">Purpose</a>
-					</li>
-					<li>
-						<a href="#Services">Services</a>
-					</li>
-					<li>
-						<a href="#gallery">Art Gallery</a>
-					</li>
-					<li>
-						<a href="#contactus">Contact Us</a>
-					</li>
-				</ul>
+				<a href="#home" className="nav-text">
+					Home
+				</a>
+				<a href="#Services" className="nav-text">
+					Services
+				</a>
+				<a href="#gallery" className="nav-text">
+					Gallery
+				</a>
+				<a href="#Purpose" className="nav-text">
+					Purpose
+				</a>
+			</div>
+			<div className="contact-container">
+				<a href="#contactus" className="contact-text">
+					Contact Us
+				</a>
 			</div>
 		</nav>
 	);

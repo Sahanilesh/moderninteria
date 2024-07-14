@@ -13,9 +13,9 @@ function App() {
 		<div>
 			<Navbar />
 			<Hero />
-			<Perpose />
-			<Services />
-			<Gallery />
+			{/* <Perpose /> */}
+			{/* <Services /> */}
+			{/* <Gallery /> */}
 			<ContactUs />
 			<Footer />
 		</div>
