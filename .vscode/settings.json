@@ -1,0 +1,16 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.tabSize": 4,
+	"prettier.useTabs": true,
+	"editor.indentSize": "tabSize",
+	"prettier.tabWidth": 4,
+	"editor.tabCompletion": "on",
+	"prettier.bracketSpacing": true,
+	"prettier.trailingComma": "none",
+	"prettier.singleQuote": false,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	}
+}
