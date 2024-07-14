@@ -11,7 +11,7 @@ function Hero() {
 					<h1 className="main-text">Interior</h1>
 					<h2 className="desc-text">/ Crafting Dream Spaces... /</h2>
 				</div>
-				<div className="home-right"> right</div>
+				<div className="home-right"> </div>
 			</div>
 		</div>
 	);

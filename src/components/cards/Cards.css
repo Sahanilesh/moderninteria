@@ -1,0 +1,14 @@
+.card-container {
+	width: 20vw;
+	height: 50vh;
+	/* background-color: beige; */
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+}
+
+.card-header {
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
