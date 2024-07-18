@@ -4,8 +4,30 @@ import "./ContactUs.css";
 function ContactUs() {
 	return (
 		<div className="contact">
-			<div className="contact-left">
-				<h1 className="mid-text">Perfect</h1>
+			<div class="contact-left">
+				<h1 class="head-text">High Quality Wood Furniture</h1>
+				<p class="head-desc">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+				</p>
+				<div class="info">
+					<div class="add">
+						<p>
+							<strong>ADDRESS</strong>
+						</p>
+						<p>Sylhet 3100,</p>
+						<p>Bangladesh</p>
+					</div>
+					<div class="cont">
+						<p>
+							<strong>CONTACT</strong>
+						</p>
+						<p>+8801714457298</p>
+						<p>hello@riaadarif.com</p>
+					</div>
+				</div>
+				<a href="mailto:hello@riaadarif.com" class="button">
+					Get in Touch
+				</a>
 			</div>
 			<div className="contact-right">
 				<iframe

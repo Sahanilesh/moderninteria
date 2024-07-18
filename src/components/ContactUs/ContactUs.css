@@ -19,7 +19,7 @@ p {
 	height: 50vw;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	/* align-items: center; */
 	flex-direction: column;
 	padding: 5%;
 	background-color: #d9d9d9;
@@ -45,4 +45,86 @@ p {
 	flex-direction: column;
 	/* padding: 5%; */
 	background-color: #f7f3f3;
+}
+
+/* style for contact and address and btn 
+
+.head-text {
+	font-size: 1.8rem;
+}
+
+.descp-text {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: 1.2rem;
+}
+
+.contc-add {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: burlywood;
+}
+
+.contc-add .add {
+	background-color: azure;
+
+	height: 10px;
+	width: 10px;
+}
+
+.contc-add .contc {
+	background-color: rgb(123, 197, 197);
+	height: 10px;
+	width: 10px;
+}
+
+.contact-btn {
+	background-color: black;
+	color: white;
+}
+
+*/
+
+/* Style for contact and address */
+
+.contact-left {
+	width: 50vw;
+	height: 50vw;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #ffffff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+.head-text h1 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+p {
+	color: #666666;
+	line-height: 1.6;
+}
+.info {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	color: #ff6600;
+}
+.info .add .cont {
+	text-align: left;
+}
+.info div p {
+	margin: 5px 0;
+}
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #ff6600;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.button:hover {
+	background-color: #e65c00;
 }
