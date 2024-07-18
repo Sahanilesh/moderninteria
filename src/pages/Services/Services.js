@@ -1,10 +1,14 @@
 import React from "react";
 import "./Services.css";
+import Cards from "../../components/cards/Cards";
 
 function Services() {
 	return (
 		<div className="service">
-			<p>Services page</p>
+			<Cards />
+			<Cards />
+			<Cards />
+			<Cards />
 		</div>
 	);
 }
